@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+    --ff-logo: "Iceland";
+    --ff-primary: "Source Sans Pro", sans-serif;
+    --ff-secondary: "Source Code Pro", monospace;
+  
+    --fw-reg: 300;
+    --fw-bold: 900;
+  
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent1: darkslategray;
+    --clr-accent2: #a8dadc;
+    --clr-accent3: #f1faee;
+  
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    --fs-logo: 3.5rem;
+  
+  /* box shadow props */
+  
+    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+      0.125em 00.125em 00.25em rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (min-width: 800px) {
+    :root {
+      --fs-h1: 4.5rem;
+      --fs-h2: 3.75rem;
+      --fs-h3: 1.5rem;
+      --fs-body: 1.125rem;
+      --fs-logo: 4rem;
+    }
+  }
+
+  /* general styles */
+body {
+    background-color: var(--clr-dark);
+
+}
+
+  /* buttons */
+
+
+  /* typography */
+
+
+  /* body sections */
+
+  /* header / nav */
+
+#navbar {
+    background-color: var(--clr-accent1);
+    color: var(--clr-accent3);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2rem;
+    margin: 0;
+}
+
+#navbar li {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    margin: 0 2rem;
+}
+
+#welcome-section {
+    color: var(--clr-accent3);
+    /* background-color: var(--clr-dark); */
+    margin-top: 125px;
+    height: 100vh;
+}
+
+#projects {
+    background-color: var(--clr-accent2);
+    height: 1000px;
+}
+
+
+
