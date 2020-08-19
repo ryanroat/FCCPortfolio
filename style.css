@@ -16,6 +16,7 @@
     --clr-accent1: darkslategray;
     --clr-accent2: #a8dadc;
     --clr-accent3: #f1faee;
+    --clr-accent4: #8d9f9f;
   
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -113,8 +114,9 @@ h3 {
     justify-content: center;
 }
 
-.section-title {
-  padding: 10rem 0 3rem 0;
+#welcome-section h2 {
+  margin-top: 3rem;
+  color: var(--clr-accent4);
 }
 
 /* projects / work */
@@ -127,6 +129,10 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.section-title {
+  padding: 10rem 0 3rem 0;
 }
 
 .project-tile {
@@ -168,7 +174,8 @@ h3 {
 
 footer {
   border-top: 5px var(--clr-accent1) solid;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
+  padding-top: 1rem;
   color: var(--clr-accent3);
   text-decoration: none;
   font-family: var(--ff-secondary);
